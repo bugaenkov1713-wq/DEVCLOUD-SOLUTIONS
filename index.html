@@ -1,0 +1,1130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEVCLOUD SOLUTIONS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="site-header">
+          <div class="header__logo">
+            <a href="/" class="logo__link">
+              <svg
+                width="51"
+                height="51"
+                viewBox="0 0 51 51"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="51" height="51" fill="url(#pattern0_1_120)" />
+                <defs>
+                  <pattern
+                    id="pattern0_1_120"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1_120"
+                      transform="translate(-0.00694444) scale(0.0138889)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1_120"
+                    width="73"
+                    height="72"
+                    preserveAspectRatio="none"
+                    xlink:href="data:image/png;base64,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"
+                  />
+                </defs>
+              </svg>
+              <span class="brand__name">DEVCLOUD SOLUTIONS</span>
+            </a>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__nav-menu nav__menu">
+              <li class="nav__menu-item">
+                <a href="#" class="nav__menu-link">Главная</a>
+              </li>
+              <li class="nav__menu-item">
+                <a href="#services" class="nav__menu-link">Услуги</a>
+              </li>
+              <li class="nav__menu-item">
+                <a href="#processes" class="nav__menu-link">Как мы работаем</a>
+              </li>
+              <li class="nav__menu-item">
+                <a href="#projects" class="nav__menu-link">Портфолио</a>
+              </li>
+              <li class="nav__menu-item">
+                <a href="#about" class="nav__menu-link">О нас</a>
+              </li>
+              <li class="nav__menu-item">
+                <a href="#footer" class="nav__menu-link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <section id="hero" class="hero">
+          <h1 class="hero__title hero__title--stroke">
+            Компания по разработке<br />программного обеспечения
+          </h1>
+          <a href="#feedback" class="hero__btn">Запросить консультацию</a>
+          <a href="#feedback" class="hero__arrow" ><img src="/images/arrow-hero.svg" alt=""></a>
+        </section>
+      </header>
+      <main>
+        <section id="about" class="about">
+          <div class="about__wrapper">
+            <div class="about__item">
+              <h3 class="about__number">98%</h3>
+              <p class="about__text">завершенных проектов успешно</p>
+            </div>
+            <div class="about__line"></div>
+            <div class="about__item">
+              <h3 class="about__number">30</h3>
+              <p class="about__text">календарных дней до первого релиза</p>
+            </div>
+            <div class="about__line"></div>
+            <div class="about__item">
+              <h3 class="about__number">5+</h3>
+              <p class="about__text">
+                дней от идеи до<br />
+                готовой концепции
+              </p>
+            </div>
+            <div class="about__line"></div>
+            <div class="about__item">
+              <h3 class="about__number">+20%</h3>
+              <p class="about__text">к эффективности бизнеса</p>
+            </div>
+          </div>
+        </section>
+        <section id="guarantee" class="guarantee">
+          <div class="guarantee__content">
+            <img
+              src="images/guarantee.svg"
+              alt=""
+              class="guarantee__content-image"
+            />
+            <div class="guarantee__content-text">
+              <div class="guarantee__h2-wrapper">
+                <span class="guarantee__svg-left">
+                  <svg
+                    width="60"
+                    height="60"
+                    viewBox="0 0 60 60"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <rect
+                      width="60"
+                      height="60"
+                      fill="url(#pattern0_1_93)"
+                      fill-opacity="0.15"
+                    />
+                    <defs>
+                      <pattern
+                        id="pattern0_1_93"
+                        patternContentUnits="objectBoundingBox"
+                        width="1"
+                        height="1"
+                      >
+                        <use
+                          xlink:href="#image0_1_93"
+                          transform="scale(0.0166667)"
+                        />
+                      </pattern>
+                      <image
+                        id="image0_1_93"
+                        width="60"
+                        height="60"
+                        preserveAspectRatio="none"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABmJLR0QA/wD/AP+gvaeTAAABlElEQVRoge2YPS8EURSGH0SjEYVCYqNQbE0jotRJdEoJlUKn8KPIJmqFXyBRSGgJQrEi2VVZsVexNnHNzJnFdcyenCe51bmT530zyXxccBzHcRxnGNkAHoAmsGbQF7ELvAHhYzWN+SI2ge4neQCuDPkiVoDOF3kA9o34IqaA6xz5PTBhwJehkSMPwJ4RX8RqgfwFmDbgixgHLgoCNAz4MmwXyAOwZcCX4bRA3gVmDPgilgrkAbgcRt9oyXxHmJ2lCKDtkwqPAevC/DxFAG2fVHgR+RVwkyKAtk8qvFxy7W2KANo+qfBCybV3KQJo+6TC88Ks/02bEhWfVHhOmHWA1xQBtH1S4cmSAKlR8UmFpV+w1Hf3P3wZir54Bl1t4AioV9SXPEB/PQG1Cvr+LEAADqviGykJkIo28kNJzadVuMyl5iv7WzKHF7aOF7aOF7aOF7aOF7aOF7aOF7aOVPg5oac1wB4Vn1T4JGGA4wH2aPsy1OkdiP32fOkRmK2gL5cavQOx1g/ELeDgm3Jtn+M4juM4irwDDs9WEum2SJEAAAAASUVORK5CYII="
+                      />
+                    </defs>
+                  </svg>
+                </span>
+                <h2 class="guarantee__h2">
+                  Гарантируем качество и выполнение в сроки
+                </h2>
+                <span class="guarantee__svg-right">
+                  <svg
+                    width="60"
+                    height="60"
+                    viewBox="0 0 60 60"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <rect
+                      width="60"
+                      height="60"
+                      fill="url(#pattern0_1_94)"
+                      fill-opacity="0.15"
+                    />
+                    <defs>
+                      <pattern
+                        id="pattern0_1_94"
+                        patternContentUnits="objectBoundingBox"
+                        width="1"
+                        height="1"
+                      >
+                        <use
+                          xlink:href="#image0_1_94"
+                          transform="scale(0.0166667)"
+                        />
+                      </pattern>
+                      <image
+                        id="image0_1_94"
+                        width="60"
+                        height="60"
+                        preserveAspectRatio="none"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABmJLR0QA/wD/AP+gvaeTAAABiklEQVRoge2ZvUoDQRRGj6IE64AgmjqljZAnsEht4xP4BOKb+BBKIIW1dbAQxFrBv8JGIRGLCDEWq+BmdmeTzGV2uNwDU12Yc7+ZYVlmwDAMwzCMVGkBPWAETBccI6APtBP2OfK3JcSz4/13rtR8Dj0B+d84T9DnsMyxKhvDVHwrngamczS5CD5XNN+qsCR5LLB2LLB2LLB2LLB2LLB2LLB2LLB2fIE/onUR0ecLfBmjgRp9Dm2yCzGpa5fUfIW0yC7EhpEaiO0Lwrc741R8kl/phqf2KegJ8kkGXvfU5rmmjeKTCtyoaOBByBPskwq8XVG/F/IE+6QCV73lXAt5gn1SgXcq6ldCnmBfjB1+BW6EPME+qcC7ntoF8C3kqcvncEf5T8CeAl+OLbIVLZIPUvNJHOku5U+hpwLz1+1z6FO82rfAmgJfjk3gq6SBfQU+h+MS+ZkSX44N4KVA/gQ0FfgcTgrkY6CjxOfwPCOfAIeKfA7/j9cEOFLmc+iSrfojcKDQZxiGYRiGMD8ZpXSbaHxB0QAAAABJRU5ErkJggg=="
+                      />
+                    </defs>
+                  </svg>
+                </span>
+              </div>
+              <p class="guarantee__text">
+                Мы просто умеем разрабатывать то, что нужно. То, что будет
+                работать!
+              </p>
+              <a href="#feedback" class="guarantee__btn button__black">
+                Запросить консультацию
+              </a><a href=""></a>
+              <p class="guarantee__about-us">
+                С 2010 года профессионально разрабатываем успешные мобильные и
+                веб-решения, индивидуальные программные решения, информационные
+                системы и ПО для бизнеса, которые повышают эффективность
+                бизнеса.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="services" class="services">
+          <h2 class="services__title">Основные услуги</h2>
+          <div class="services__cards">
+            <div class="services__card-item card-item">
+              <svg
+                class="card__corner"
+                width="174"
+                height="174"
+                viewBox="3 8 160 159.566"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g>
+                  <path
+                    d="M163 167.566L3 8.00001H122.348C159.832 8.00003 163 9.03804 163 46.38V167.566Z"
+                    fill="#017B65"
+                  />
+                </g>
+                <rect
+                  x="93"
+                  y="25"
+                  width="53"
+                  height="53"
+                  fill="url(#pattern0_277_95)"
+                />
+                <defs>
+                  <filter
+                    id="filter0_d_277_95"
+                    x="0"
+                    y="0"
+                    width="174"
+                    height="173.566"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset dx="4" dy="-1" />
+                    <feGaussianBlur stdDeviation="3.5" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.49 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_277_95"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_277_95"
+                      result="shape"
+                    />
+                  </filter>
+                  <pattern
+                    id="pattern0_277_95"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_277_95"
+                      transform="scale(0.015625)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_277_95"
+                    width="64"
+                    height="64"
+                    preserveAspectRatio="none"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAACdElEQVR4nO2bz07bQBCHZ1GPcEQVAfEafYVSQLxFn4B/PbdIPFShHNKn6A2jXouAC0Li45BNGoyztpPZnW2z3wVsr2d+M55sGHYtUii8AjgAroAH8uUB+AHsawd/bhzYPJxpBX/gDT4Cx8BAxXAEgAFw4rUC7GkYvfLGThQ0JgE49ZovNYzde2MbCtqSAGx4zXcaxgBQ0JWURXWvBAx/AirN2UqJCtiZN+A6bipgREScc84fVyKypeVImco5ty3yVvfcjNM76zgXtHW+05GVlKGI6D+Yf6UC6iyqc+YkuCxklwB69iJT94Vo7x1y+AiQphdp7h2sE0DEXoQuvUMGCYjeixDqHTJIwLgXmfnkgZ9+zLDhHPVrDfcP/JhJ75DTJLgqIuKc+x0Y81z7Wf+96XjClO21NxczqIAk/up+cqoAE7L7Uzhl1YmUCsivAhZua1uoV9jSV0BJgLUAa0oCrAVYUxJgLcCakgBrAdaUBFgLsKYkwFqANSUB1gKsKQmwFmBNSYC1AGs6J8CvwAxjnjOlbWGkaeFC81xZGDGiz7/Fm/bmaJ+zo6wNLimhj8CNiGxFfip/ROSDc+5XRB9BQhXwWUSqyP7N54CZW2VTk3pVeBzn0s8BE2LNwsAucEPLLm+rb4HoAni95f66tzB9Pf/H12DXyupjsHWb2px2d7zIa+BjYFyvCuhaWZ39MNpLC3Da1ZgmOSRg3197ZLSjMulrc8Cd9/++4/hOlVW7Z9P7aH7JCjjDnqMeeesF8MX7uAgN2gMu+TsnpOYJOATWFQPfZBT8eLP0rpZtVYBvCRL81TrOIIxe1/sO3CoGfQ9c0PDkXwAD4M8jCO+w4QAAAABJRU5ErkJggg=="
+                  />
+                </defs>
+              </svg>
+              <h3 class="card-item__title">Разработка мобильных приложений</h3>
+              <p class="card-item__text">
+                Мы создаем мобильные приложения, которые нравятся пользователям.
+                Воспользовавшись преимуществами искусственного интеллекта,
+                машинного обучения, Интернета вещей и других высокотехнологичных
+                технологий для создания шедевров приложений, которые сохранятся.
+              </p>
+              <button class="item-card__btn main-btn">
+                <span class="card__btn-left"
+                  ><svg
+                    width="36"
+                    height="29"
+                    viewBox="0 0 36 29"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.9135 3.44188C12.1623 1.23142 15.0305 0.0106142 18 0C24.0525 0 29.0768 5.12948 29.6235 11.744C33.2055 12.321 36 15.7398 36 19.9357C36 24.542 32.6295 28.2122 28.5457 28.2122H8.50725C3.843 28.2122 0 24.0214 0 18.7688C0 14.2471 2.8485 10.5026 6.6195 9.55366C6.94125 7.34029 8.19 5.13461 9.9135 3.44188ZM11.3827 5.38339C9.6795 7.05817 8.7885 9.07662 8.7885 10.6565V11.8055L7.78725 11.9312C4.644 12.3236 2.25 15.2653 2.25 18.7688C2.25 22.5313 5.0175 25.6474 8.50725 25.6474H28.5457C31.455 25.6474 33.75 23.0519 33.75 19.9357C33.75 16.817 31.455 14.2215 28.5457 14.2215H27.4207V12.9391C27.423 7.24539 23.238 2.56474 18 2.56474C15.5697 2.57581 13.2229 3.57636 11.3827 5.38596V5.38339Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span class="card__btn-text">Узнать больше</span>
+                <span class="card__btn-right"
+                  ><svg
+                    width="43"
+                    height="12"
+                    viewBox="0 0 43 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 6.14335H41M30 10.7029L41 6.14335L30 0.44397"
+                      stroke="currentColor"
+                    /></svg
+                ></span>
+              </button>
+            </div>
+            <div class="services__card-item card-item">
+              <svg
+                class="card__corner"
+                width="174"
+                height="174"
+                viewBox="3 8 160 159.566"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g>
+                  <path
+                    d="M163 167.583L3 8.00001H122.348C159.832 8.00003 163 9.03814 163 46.3839V167.583Z"
+                    fill="#017B65"
+                  />
+                </g>
+                <rect
+                  x="99"
+                  y="30"
+                  width="53"
+                  height="53"
+                  fill="url(#pattern0_277_124)"
+                />
+                <defs>
+                  <filter
+                    id="filter0_d_277_124"
+                    x="0"
+                    y="0"
+                    width="174"
+                    height="173.583"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset dx="4" dy="-1" />
+                    <feGaussianBlur stdDeviation="3.5" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.49 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_277_124"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_277_124"
+                      result="shape"
+                    />
+                  </filter>
+                  <pattern
+                    id="pattern0_277_124"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_277_124"
+                      transform="scale(0.015625)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_277_124"
+                    width="64"
+                    height="64"
+                    preserveAspectRatio="none"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAACeElEQVR4nO2bMWtTURiGnxMrralonUQ3rbjpLHQRW7uIP0BtHRzFRRQcXIo4SekfkArSpH/CdNPRrZttR6WLCQotOvg63JvmGG6wmpP7Xej3TCfnnHzfe9+cQzK8AcdxHMdxHMdxHOfoEYomJdWAe8D5cuWMjM9AM4Twq39hbMAbFoC3I5Vkw1r/RG3AxosjFmKBiiYHnYCYD8D7tFpKZxNYL1o4jAGtEMJSWj3VYdAVODIc5gSYIWkSmAOmgeNDlPoJbJOd5r14oZIGSArAU+A5cDph6Y6kl8BKCEFQwSuQ/wZpAq9I+/AAU8Ay0MhNruQJeALciV5vAxtAe4iaZ4BZsqsEcBf4CKwU7pa0pB6lfQNImpTUiXq/ljSeqPa4pNWodltSvWpXYJbesd8CHoUQfqQonNd5COzkU1PAjaoZcDkat1I9fJe8XivuVzUDTkbj3RH1+BKNT1XNgNJxA6wFWOMGWAuwxg2wFmCNG2AtwBo3wFqANW6AtQBr3ABrAda4AdYCrHEDrAVY4wZYC7DGDbAWYI0bYC3AGjfAWoA1boC1AGsOEiKS5oGrwDFgJtozI+lZwp4DY6vA92h8LmHPmLjuNwAkNVQui0XKJN2O9mwpUTokqj8haSfqcQtJ8yU+eJfC2I2kurLoSpdVpYvITEh6E9X+KunEGHAlRYN/pP9ada/FnrIY23I+/wC4LqlFL9ryP0yT5Q0vRHMvQgj7SLpZzof+VxYhywhKao6415rymFwthPAOaAzhbioEkAcYF8jicp3EPdrAY+B+Nyh58IcJSXPANf7M6ZTFJrDe/80gqU6WHLsEnB2i/i7wCdgIIezHC78BawvPEuYvqkQAAAAASUVORK5CYII="
+                  />
+                </defs>
+              </svg>
+              <h3 class="card-item__title">
+                Разработка программного обеспечения
+              </h3>
+              <p class="card-item__text">
+                Уже более 10 лет мы освоили лучшие веб-технологии для реализации
+                проектов, в которые вложены инвестиции. Надежный лидер рынка в
+                разработке высокопроизводительных веб-интерфейсов для любого
+                бизнеса.
+              </p>
+              <button class="item-card__btn main-btn">
+                <span class="card__btn-left"
+                  ><svg
+                    width="36"
+                    height="29"
+                    viewBox="0 0 36 29"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.9135 3.44188C12.1623 1.23142 15.0305 0.0106142 18 0C24.0525 0 29.0768 5.12948 29.6235 11.744C33.2055 12.321 36 15.7398 36 19.9357C36 24.542 32.6295 28.2122 28.5457 28.2122H8.50725C3.843 28.2122 0 24.0214 0 18.7688C0 14.2471 2.8485 10.5026 6.6195 9.55366C6.94125 7.34029 8.19 5.13461 9.9135 3.44188ZM11.3827 5.38339C9.6795 7.05817 8.7885 9.07662 8.7885 10.6565V11.8055L7.78725 11.9312C4.644 12.3236 2.25 15.2653 2.25 18.7688C2.25 22.5313 5.0175 25.6474 8.50725 25.6474H28.5457C31.455 25.6474 33.75 23.0519 33.75 19.9357C33.75 16.817 31.455 14.2215 28.5457 14.2215H27.4207V12.9391C27.423 7.24539 23.238 2.56474 18 2.56474C15.5697 2.57581 13.2229 3.57636 11.3827 5.38596V5.38339Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span class="card__btn-text">Узнать больше</span>
+                <span class="card__btn-right"
+                  ><svg
+                    width="43"
+                    height="12"
+                    viewBox="0 0 43 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 6.14335H41M30 10.7029L41 6.14335L30 0.44397"
+                      stroke="currentColor"
+                    /></svg
+                ></span>
+              </button>
+            </div>
+            <div class="services__card-item card-item">
+              <svg
+                class="card__corner"
+                width="174"
+                height="174"
+                viewBox="3 8 160 159.566"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g>
+                  <path
+                    d="M163 167.583L3 8.00001H122.348C159.832 8.00003 163 9.03814 163 46.3839V167.583Z"
+                    fill="#017B65"
+                  />
+                </g>
+                <rect
+                  x="91"
+                  y="35"
+                  width="50"
+                  height="50"
+                  fill="url(#pattern0_277_123)"
+                />
+                <defs>
+                  <filter
+                    id="filter0_d_277_123"
+                    x="0"
+                    y="0"
+                    width="174"
+                    height="173.583"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feOffset dx="4" dy="-1" />
+                    <feGaussianBlur stdDeviation="3.5" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.49 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_277_123"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_277_123"
+                      result="shape"
+                    />
+                  </filter>
+                  <pattern
+                    id="pattern0_277_123"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use xlink:href="#image0_277_123" transform="scale(0.02)" />
+                  </pattern>
+                  <image
+                    id="image0_277_123"
+                    width="50"
+                    height="50"
+                    preserveAspectRatio="none"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAFdklEQVRoge2ZW4hVZRTH1zYvo0wXKzS7wDSNEk1DF3sYpdIsdCxpkkwreuvBF0UrKHQEmbCsIDKky0MQQaVIoShmGV000cC0hPQhsyRnNHPKMW1szJlfD9/anTX77O+cvefsM3MeWrBZZ6/bt/7nu+71ifxPlUVBFkGAahG5Q0SmiEi9iIwXkTEiUq0mZ0TkuIgcFJH9IrJNRHYEQXAmi/ZLIiAAZgLrgL9JT2eBtUATkMkf2h8Qc4B9ngSPAM8Ck4zsVmAJcNjj8x0weyAB1AGfmgR+BTr193ngRdwwC+0BMO8jgOVqC3ACOGbifQzUlhvEo8CfJoFF+s8DdANzYnz6ADHyJuAvVT8NLNSYAKeAeeUAEAArzL+2ARgL3A306DPL4xsLxID5R59GjbnetNOaNYjXzNBZoPKLcHMBYEUBfy8Q1T+jJj8CVSpbYIbe6qyAhD3RhZmMwAsq3wUMLQHIEGCnmrUY+QPaZuk9g5sT6NBpNvJxuKUTYHKRGAWBqM0tQC9u/o028mZtG2Buf0HUkZvYT0Z0z6l8U4I4RYGo3Qdquiwif0LlnRRZzWI3IuAjEZlZLIEBpq1BEMzwKYdEBbhltNJAiIhMt0O8IOFWqXDHXhyjf1t1SxPGSzS01Hapmr8Zo1uoum9JcpzBnZ0A2tHl0OgC4KjqbywDkAY1PxyjqwLaVO8dXtZhnRq3xOiuV92xJImpT2Igan9cXfImNtCiujXFglyIW1Z7gZoY/WMaaH2KxNIC2aAueUcUoEZz6wJGRfV2st8uIlUisjsIgrzuFZGblO9Jmlg/aK/ym6MKzWm3iIwUl2sfskCmKN/uaeQ65Qf7l2Mi+iHSVpS+Uj41qrBA6pXv9AQJh9tPqVJLRz8rv9aj36W8PqqwQCZEgkXpUuUdqVJLRyeUX+7Rh7lNiCoskMuUt3mCXKz8ZKrU0tFv4r7vL/HojyjPA/rf5gJ0i8jwzFPzUBAEvuNRo4hsltwIiKPuIAj67HN5R5TBpiAIvhY3mQvtV/7dHejQNTx2fAInVe/r9jifRPsI8DnwDTCuiN1YDflHVGd7JJzEV3vinFI+2qMvhe4SkYkisgPwrVgiIlcpz+stCyRcw33n/vBf8K0oWVCtODA3ePTh/nIoqrBA9iuf5AkSLn3lLNd8ISJXish24LYYfaPyvL3OAtmm/E5PI+FGOL4/GSake0Vkk7it4DMguoOHNbMvvRGA6sE6NFo7YBjwnoq6MKUmYDjwFjCsWMC1GmBZjK5sx/ioHa668rqKzwGPJG0zDNCkzu3AyIjOflg1lBOIka9UVQ8wPzkS57xHnQt96uZ9eKVJMI0drojXqybLk7QbOs5mACgNYGA+uRrXyjRgNlcSELV5GDdfAN4Aih+vgFpcVRzgqYiuHAW6pHazyJVS36XY6qVO89Shh7513yvIsGSaxk5tp5Krgm4kUu3xObWqw1ngQSPPpIidxA63v20FDpknHC2JRkYYaLXpmUUqy+RaISGQOnKrVhx9nwiIBms1jhtxw2saJVz0+OyAC4CXgVVG/4mavIqbv/ZJ9zEIzDVd2gEsNgC7gYeSAgHui7NTEO+b92mqv0ffjwIjUiXuAVMLbDENRS9DX6LwZWgV7t7xvAdICCIcSluMzV6VPV4yEBO02QSOUhvupmuykU3ElTx/ieuliH8nrgZ9WgE1qE148XSAJHtICjABMANYQ25tT0weIJ244oMAq1T2jr4PJXdPf39mQCKJjAKmA8/j6rcHgN9xc6dLe2kf7tZ2CTr2jX87bv41GlkN7sb3HHCNysJDpK8aOriEWwXHxMjD75IPcXtJSL7aW2US7qLU0mngFcBXIKlcwp2p2nRIlqOCU1n0LzCNczpVfNqOAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+              <h3 class="card-item__title">Разработка <br />веб приложений</h3>
+              <p class="card-item__text">
+                Мы не только идем в ногу с «тенденциями дизайна», но и
+                ориентируемся на пользователей, что делает наши услуги наиболее
+                эффективными на всем рынке. Превосходство с 2010 года. Создадим
+                идеальное веб приложение именно для вас.
+              </p>
+              <button class="item-card__btn main-btn">
+                <span class="card__btn-left"
+                  ><svg
+                    width="36"
+                    height="29"
+                    viewBox="0 0 36 29"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.9135 3.44188C12.1623 1.23142 15.0305 0.0106142 18 0C24.0525 0 29.0768 5.12948 29.6235 11.744C33.2055 12.321 36 15.7398 36 19.9357C36 24.542 32.6295 28.2122 28.5457 28.2122H8.50725C3.843 28.2122 0 24.0214 0 18.7688C0 14.2471 2.8485 10.5026 6.6195 9.55366C6.94125 7.34029 8.19 5.13461 9.9135 3.44188ZM11.3827 5.38339C9.6795 7.05817 8.7885 9.07662 8.7885 10.6565V11.8055L7.78725 11.9312C4.644 12.3236 2.25 15.2653 2.25 18.7688C2.25 22.5313 5.0175 25.6474 8.50725 25.6474H28.5457C31.455 25.6474 33.75 23.0519 33.75 19.9357C33.75 16.817 31.455 14.2215 28.5457 14.2215H27.4207V12.9391C27.423 7.24539 23.238 2.56474 18 2.56474C15.5697 2.57581 13.2229 3.57636 11.3827 5.38596V5.38339Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span class="card__btn-text">Узнать больше</span>
+                <span class="card__btn-right"
+                  ><svg
+                    width="43"
+                    height="12"
+                    viewBox="0 0 43 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 6.14335H41M30 10.7029L41 6.14335L30 0.44397"
+                      stroke="currentColor"
+                    /></svg
+                ></span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section id="projects" class="projects">
+          <h2 class="projects__title">Наши проекты</h2>
+          <div class="projects__content">
+            <img
+              class="projects__left"
+              src="/images/project1.jpg"
+              alt="Project"
+            />
+            <div class="projects__right">
+              <h3 class="projects__right-h3">
+                Компания по производству фотокниг Fototeca
+              </h3>
+              <p class="projects__right-p">
+                Программное решение, автоматизирующее производство изделий – от
+                создания дизайна до выдачи клиенту. Была создана система,
+                которая позволяет профессиональному фотографу – клиенту компании
+                — формировать изделие (фотокнигу) в нужном формате и виде,
+                оплатить и сразу передать заказ в производство.
+              </p>
+              <button class="projects__btn main-btn">
+                <span
+                  ><svg
+                    width="36"
+                    height="29"
+                    viewBox="0 0 36 29"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.9135 3.44188C12.1623 1.23142 15.0305 0.0106142 18 0C24.0525 0 29.0768 5.12948 29.6235 11.744C33.2055 12.321 36 15.7398 36 19.9357C36 24.542 32.6295 28.2122 28.5457 28.2122H8.50725C3.843 28.2122 0 24.0214 0 18.7688C0 14.2471 2.8485 10.5026 6.6195 9.55366C6.94125 7.34029 8.19 5.13461 9.9135 3.44188ZM11.3827 5.38339C9.6795 7.05817 8.7885 9.07662 8.7885 10.6565V11.8055L7.78725 11.9312C4.644 12.3236 2.25 15.2653 2.25 18.7688C2.25 22.5313 5.0175 25.6474 8.50725 25.6474H28.5457C31.455 25.6474 33.75 23.0519 33.75 19.9357C33.75 16.817 31.455 14.2215 28.5457 14.2215H27.4207V12.9391C27.423 7.24539 23.238 2.56474 18 2.56474C15.5697 2.57581 13.2229 3.57636 11.3827 5.38596V5.38339Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span>Узнать больше</span>
+                <span
+                  ><svg
+                    width="43"
+                    height="12"
+                    viewBox="0 0 43 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 6.14335H41M30 10.7029L41 6.14335L30 0.44397"
+                      stroke="currentColor"
+                    /></svg
+                ></span>
+              </button>
+            </div>
+          </div>
+          <a href="#feedback" class="projects-bottom__btn button__black">
+            Запросить консультацию
+          </a>
+        </section>
+        <section id="processes" class="processes">
+          <h2 class="processes__h2">Наш процесс работы</h2>
+          <div class="processes__content">
+            <div class="processes__numbers">
+              <div class="processes__numbers-item">1</div>
+              <div class="processes__numbers-item">2</div>
+              <div class="processes__numbers-item">3</div>
+              <div class="processes__numbers-item">4</div>
+              <div class="processes__numbers-item">5</div>
+              <div class="processes__numbers-item">6</div>
+            </div>
+            <img src="images/process.png" alt="" class="processes__img" />
+            <div class="processes__discription">
+              <h3 class="processes__h3">1. Мастерская открытий</h3>
+              <p class="processes__text">
+                Мы придаем первостепенное значение пониманию и документированию
+                входов, предпочтений клиентов, дизайна и брендов. И проясните
+                все открытые моменты, чтобы получить точное и ясное
+                представление о целях как клиентов, так и проекта. Мы работаем в
+                рамках совместного подхода с участием заинтересованных сторон,
+                чтобы согласовать бизнес-процессы.
+              </p>
+              <button class="processes__btn main-btn">
+                <span
+                  ><svg
+                    width="36"
+                    height="29"
+                    viewBox="0 0 36 29"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.9135 3.44188C12.1623 1.23142 15.0305 0.0106142 18 0C24.0525 0 29.0768 5.12948 29.6235 11.744C33.2055 12.321 36 15.7398 36 19.9357C36 24.542 32.6295 28.2122 28.5457 28.2122H8.50725C3.843 28.2122 0 24.0214 0 18.7688C0 14.2471 2.8485 10.5026 6.6195 9.55366C6.94125 7.34029 8.19 5.13461 9.9135 3.44188ZM11.3827 5.38339C9.6795 7.05817 8.7885 9.07662 8.7885 10.6565V11.8055L7.78725 11.9312C4.644 12.3236 2.25 15.2653 2.25 18.7688C2.25 22.5313 5.0175 25.6474 8.50725 25.6474H28.5457C31.455 25.6474 33.75 23.0519 33.75 19.9357C33.75 16.817 31.455 14.2215 28.5457 14.2215H27.4207V12.9391C27.423 7.24539 23.238 2.56474 18 2.56474C15.5697 2.57581 13.2229 3.57636 11.3827 5.38596V5.38339Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span>Узнать больше</span>
+                <span
+                  ><svg
+                    width="43"
+                    height="12"
+                    viewBox="0 0 43 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 6.14335H41M30 10.7029L41 6.14335L30 0.44397"
+                      stroke="currentColor"
+                    /></svg
+                ></span>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section id="tech" class="tech">
+          <h2 class="tech__title">Инструменты и технологии</h2>
+          <ul class="tech__list">
+            <li class="tech__list-item">
+              <img
+                src="/images/icons/react_ 1.svg"
+                alt="React"
+                class="tech__icon"
+              />
+            </li>
+            <li class="tech__list-item">
+              <img src="/images/icons/2.svg" alt="Rust" class="tech__icon" />
+            </li>
+            <li class="tech__list-item">
+              <img
+                src="/images/icons/java 3.svg"
+                alt="Java"
+                class="tech__icon"
+              />
+            </li>
+            <li class="tech__list-item">
+              <img
+                src="/images/icons/csharp_4.svg"
+                alt="C#"
+                class="tech__icon"
+              />
+            </li>
+            <li class="tech__list-item">
+              <img
+                src="/images/icons/python 5.svg"
+                alt="Python"
+                class="tech__icon"
+              />
+            </li>
+            <li class="tech__list-item">
+              <img
+                src="/images/icons/swift_6.svg"
+                alt="Swift"
+                class="tech__icon"
+              />
+            </li>
+            <li class="tech__list-item">
+              <img
+                src="/images/icons/sql-7.svg"
+                alt="SQL format"
+                class="tech__icon"
+              />
+            </li>
+            <li class="tech__list-item">
+              <img
+                src="/images/icons/javascript_8.svg"
+                alt="Javascript"
+                class="tech__icon"
+              />
+            </li>
+            <li class="tech__list-item">
+              <img
+                src="/images/icons/file_com_format_9.svg"
+                alt="COM"
+                class="tech__icon"
+              />
+            </li>
+            <li class="tech__list-item">
+              <img
+                src="/images/icons/vuejs_ 10.svg"
+                alt="Vue.js"
+                class="tech__icon"
+              />
+            </li>
+            <li class="tech__list-item">
+              <img
+                src="/images/icons/html_11.svg"
+                alt="HTML5"
+                class="tech__icon"
+              />
+            </li>
+            <li class="tech__list-item">
+              <img
+                src="/images/icons/css_icon_12.svg"
+                alt="CSS"
+                class="tech__icon"
+              />
+            </li>
+            <li class="tech__list-item">
+              <img
+                src="/images/icons/apple_objectivec_13.svg"
+                alt="Apple_Objectivec"
+                class="tech__icon"
+              />
+            </li>
+            <li class="tech__list-item">
+              <img
+                src="/images/icons/postgresql_14.svg"
+                alt="PostgreSQL"
+                class="tech__icon"
+              />
+            </li>
+            <li class="tech__list-item">
+              <img
+                src="/images/icons/mysql_17.svg"
+                alt="MySQL"
+                class="tech__icon"
+              />
+            </li>
+            <li class="tech__list-item">
+              <img
+                src="/images/icons/wpf_button_ 15.svg"
+                alt="WPF"
+                class="tech__icon"
+              />
+            </li>
+            <li class="tech__list-item">
+              <img
+                src="/images/icons/oracle_ 16.svg"
+                alt="Oracle"
+                class="tech__icon"
+              />
+            </li>
+          </ul>
+        </section>
+        <section id="feedback" class="feedback">
+          <div class="feedback__left-wrapper">
+            <div class="feedback__left">
+              <img
+                src="/images/аватар.png"
+                class="feedback__left-img"
+                alt="Юрий Архипов"
+              />
+              <h3 class="feedback__left-h3">Юрий Архипов</h3>
+              <h4 class="feedback__left-h4">Директор ТОО "Copyland"</h4>
+              <p class="feedback__left-p">
+                Разработана очень удобная система приема и обработки заказов, с
+                ней реально высвобождается огромное количество ресурсов.
+              </p>
+              <span class="feedback__left-stars">
+                <svg
+                  width="166"
+                  height="25"
+                  viewBox="0 0 166 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <rect
+                    x="3"
+                    width="25.0769"
+                    height="25"
+                    fill="url(#pattern0_1_66)"
+                  />
+                  <rect
+                    x="37.4808"
+                    width="25.0769"
+                    height="25"
+                    fill="url(#pattern1_1_66)"
+                  />
+                  <rect
+                    x="71.9615"
+                    width="25.0769"
+                    height="25"
+                    fill="url(#pattern2_1_66)"
+                  />
+                  <rect
+                    x="106.442"
+                    width="25.0769"
+                    height="25"
+                    fill="url(#pattern3_1_66)"
+                  />
+                  <rect
+                    x="140.923"
+                    width="25.0769"
+                    height="25"
+                    fill="url(#pattern4_1_66)"
+                  />
+                  <defs>
+                    <pattern
+                      id="pattern0_1_66"
+                      patternContentUnits="objectBoundingBox"
+                      width="1"
+                      height="1"
+                    >
+                      <use
+                        xlink:href="#image0_1_66"
+                        transform="matrix(0.0208333 0 0 0.0208974 0 -0.00153847)"
+                      />
+                    </pattern>
+                    <pattern
+                      id="pattern1_1_66"
+                      patternContentUnits="objectBoundingBox"
+                      width="1"
+                      height="1"
+                    >
+                      <use
+                        xlink:href="#image0_1_66"
+                        transform="matrix(0.0208333 0 0 0.0208974 0 -0.00153839)"
+                      />
+                    </pattern>
+                    <pattern
+                      id="pattern2_1_66"
+                      patternContentUnits="objectBoundingBox"
+                      width="1"
+                      height="1"
+                    >
+                      <use
+                        xlink:href="#image0_1_66"
+                        transform="matrix(0.0208333 0 0 0.0208974 0 -0.00153839)"
+                      />
+                    </pattern>
+                    <pattern
+                      id="pattern3_1_66"
+                      patternContentUnits="objectBoundingBox"
+                      width="1"
+                      height="1"
+                    >
+                      <use
+                        xlink:href="#image0_1_66"
+                        transform="matrix(0.0208333 0 0 0.0208974 0 -0.00153839)"
+                      />
+                    </pattern>
+                    <pattern
+                      id="pattern4_1_66"
+                      patternContentUnits="objectBoundingBox"
+                      width="1"
+                      height="1"
+                    >
+                      <use
+                        xlink:href="#image0_1_66"
+                        transform="matrix(0.0208333 0 0 0.0208974 0 -0.00153839)"
+                      />
+                    </pattern>
+                    <image
+                      id="image0_1_66"
+                      width="48"
+                      height="48"
+                      preserveAspectRatio="none"
+                      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAEoElEQVRoge2Z3W8UZRTGf2eWtlBEgtJu+dIQGhED8iEsCbAbqiYSolxqIglcGk0oiNyZGLjwjiuIfwAYb42JIaBeEGMw8YOYFjEkRAhSoFAt0m7blLLv48XutjPb2e7OMqOJ6bnYd949857nOXOeOfPOLszarM1aYqbLHRn92rElSQxLKrB60u2k7DoABa209XfvJYHjJRG0GNneA1oRraXjRCyRCuhqZwvj+RtI6eIXDJBveta29Y3FjZVMBcZH9vnIA7Qxf2JvElCxJyBhyB1ClMgLJEBHpPgrHn8FLnXsQrwAFImXE5FW09v2WtxwCUhIh4uDStPShwDH+3GjxVpS9aTXgnon4/rJQykpb4NtutcTF2a8FZA+AKwkGaaTB1Q4GCdkbBVQT7oddAMxN0AcKuU0jmylbf7zThy48VVA7sA08lLYvdACvBsXbCwV0PfL59E6/geweLpkJj/8iQ3S3PSMrb878rjYkROQMH5rS1PQMpRaClqO2I6013/SFOFqcrLPwF0A+nDuNl7zLbYM3DULnB09AV1qX0UqtQyxAqclYMtRYRnYUmAFUgfQFEpQPuwIPk35JhD9wE2k20K3PNSHszuYu4lL9Vn2wbWqCejy0mPIfRQA8Q01ZNGQT6o4N7RzTflMOmrZ/LHyN3P8CSB3DRDCgqX3B62YhxGs06fo6wTedT/lQBeytf2nkO0HTQQ7SRXy4V2mpk9SdfLV1xVMvGPZodMBzoSYetOvAp8jLQgE8g3/lmRKMUZN3puWGzpTybVqF9IvHVvw3BlE238oGYBBE3ssN3whjOeMbVSX2ldR0DlEZwAkDKi+LhNpHeKGFdhlXcNXqnGs+RzQj20dNHEWaUMAxDfUL5mZ1k1L7LIVCrusa6xvJn41txKWGeinmSzYN4ErVI28zxcqmarrAuS/tfGm7bXIQ4Qnsa52tjD09ymktwIEKgn6iYf46pDhFzYn/7Zto67350hbCQnj4uLjyB0OEPAPjUsGGZ94O/LdZrh6OTW0mdNPi04gOxBTlymSh5OpXL47Kpc5tU8JMZGPUTJlG26ESmMJYFvL4I8jGb/P0NZGmER+oZHwkDYXjxvuMmG+jI5G5xP9jeyHp56X9GQDe5kpn0J9C+h6YnXyCchlJslVfXGvQr7sK88rfU6ZqHQiJ+A8ZWKRTHnuO3blixPBIt/E5iwTucvUcRODMEeyFdB55oLWhUtmmpwGDbrN0Q0MVq8IU9UyXixiJJQALQs2IZqnk/DJSTiJTy3FGsvlT9rO/EnzUp2CE4hHNeTUTGHexuQSIJWZscug84bbmMoN77Pt+cl/ZCz74H5q58hBw1sHnA2XWmnuot0HkRJwlR1oUhZ203D7vWz+ZcuN9FZbb13DV7yu0d0m9iB+nyLPZDJOllwCBpmKqzciZ8fs0dBzlh05PeNif5xXRr+0hWNrTO4QMOSXk1m0Vlr/dvq7hYtk+gtkCCc45anwoeVGH+s3Tp1rXeJSjz422X7AQ8gmxp+217lfz/r6E/gqPV+toxeBfjPviO148HOjpEPjf920WfKOg9L28OFL9gajccaftVn7v9o/fzB7l3fCLDkAAAAASUVORK5CYII="
+                    />
+                  </defs>
+                </svg>
+              </span>
+              <p class="feedback__left-date">21.06.28</p>
+            </div>
+          </div>
+          <div class="feedback__right-wrapper">
+            <div class="feedback__right">
+              <form class="feedback-form" action="">
+                <h3 class="feedback__right-title">Есть вопросы? Задавайте!</h3>
+                <div class="feedback-form__box">
+                  <div class="feedback-form__field">
+                    <input
+                      class="feedback-input"
+                      id="fb-name"
+                      type="text"
+                      name="name"
+                      autocomplete="name"
+                      placeholder="Имя"
+                      required
+                    />
+                  </div>
+                  <div class="feedback__row">
+                    <input
+                      class="feedback-input feedback-email"
+                      id="fb-email"
+                      type="email"
+                      name="email"
+                      autocomplete="email"
+                      placeholder="E-mail"
+                      required
+                    />
+                    <input
+                      class="feedback-input feedback-tel"
+                      id="fb-tel"
+                      type="tel"
+                      name="tel"
+                      autocomplete="tel"
+                      placeholder="Телефон"
+                      required
+                    />
+                  </div>
+                  <div class="message-field">
+                    <label class="message-field__label" for="fb-message">Message</label>
+                    <textarea
+                      placeholder="Напишите свое сообщение"
+                      class="feedback-form__area"
+                      name="message"
+                      id="fb-message"
+                      rows="4">
+                    </textarea>
+                    <div class="message-field__actions">
+                      <a href="#" class="message-field__link">
+                      <svg width="24" height="24" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+                        <path d="m29.919 6.163-4.225 19.925c-.319 1.406-1.15 1.756-2.331 1.094l-6.438-4.744-3.106 2.988c-.344.344-.631.631-1.294.631l.463-6.556L24.919 8.72c.519-.462-.113-.719-.806-.256l-14.75 9.288-6.35-1.988c-1.381-.431-1.406-1.381.288-2.044l24.837-9.569c1.15-.431 2.156.256 1.781 2.013z"/>
+                       </svg>
+                      </a>
+                      <a href="#" class="message-field__link">
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          xmlns="http://www.w3.org/2000/svg"
+                          aria-hidden="true"
+                      >
+                        <path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"/>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer id="footer" class="footer">
+        <div class="footer__content">
+          <div class="footer__logo-wrapper">
+            <div class="footer__logo">
+              <a href="/" class="logo__link">
+                <svg
+                  width="51"
+                  height="51"
+                  viewBox="0 0 51 51"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <rect width="51" height="51" fill="url(#pattern0_1_120)" />
+                  <defs>
+                    <pattern
+                      id="pattern0_1_120"
+                      patternContentUnits="objectBoundingBox"
+                      width="1"
+                      height="1"
+                    >
+                      <use
+                        xlink:href="#image0_1_120"
+                        transform="translate(-0.00694444) scale(0.0138889)"
+                      />
+                    </pattern>
+                    <image
+                      id="image0_1_120"
+                      width="73"
+                      height="72"
+                      preserveAspectRatio="none"
+                      xlink:href="data:image/png;base64,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"
+                    />
+                  </defs>
+                </svg>
+                <span class="brand__name-dark">DEVCLOUD SOLUTIONS</span>
+              </a>
+            </div>
+            <address class="footer__address">Алматы, Жамбыла 111</address>
+          </div>
+          <div class="footer__contacts">
+            <div class="footer__tel-wrapper">
+              <img src="/images/icons/1.telefon.svg" alt="Telefon" />
+              <div class="footer_tel-numbers">
+                <a class="footer__tel-link" href="tel+7 (727) 334-21-45​"
+                  >+7 (727) 334-21-45​</a
+                >
+                <a class="footer__tel-link" href="tel+7 (707) 998-93-90​"
+                  >+7 (707) 998-93-90​</a
+                >
+              </div>
+            </div>
+            <div class="footer__mail-wrapper">
+              <img src="/images/icons/2.mail.svg" alt="Mail" />
+              <a class="footer__mail-link" href="mailto:info@devcloud.kz"
+                >info@devcloud.kz</a
+              >
+            </div>
+            <div class="footer_social-links">
+              <a
+                href="https://t.me"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="social-icon"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M21.9232 5.416C19.7228 3.2145 16.7968 2.00117 13.6795 2C7.25583 2 2.028 7.2255 2.02567 13.6492C2.0245 15.7025 2.56117 17.7068 3.58083 19.4732L2 25.3333L8.10517 23.8902C9.80733 24.8188 11.723 25.3077 13.6737 25.3088H13.6783C20.1008 25.3088 25.3287 20.0822 25.3322 13.6597C25.3345 10.5458 24.1235 7.61867 21.9232 5.416ZM19.381 17.813C19.1383 18.4932 17.9495 19.1488 17.4152 19.1967C16.8808 19.2457 16.3803 19.4382 13.921 18.4687C10.9612 17.302 9.09217 14.2675 8.9475 14.0738C8.80167 13.879 7.75867 12.4953 7.75867 11.0627C7.75867 9.63 8.51117 8.92533 8.77833 8.63483C9.0455 8.34317 9.3605 8.27083 9.55533 8.27083C9.749 8.27083 9.94383 8.27083 10.113 8.27783C10.3207 8.286 10.5505 8.2965 10.7687 8.78067C11.0277 9.357 11.5935 10.7967 11.6658 10.9425C11.7382 11.0883 11.7872 11.2587 11.6903 11.4523C11.5935 11.646 11.5445 11.7673 11.3998 11.9377C11.254 12.108 11.0942 12.3168 10.9635 12.4475C10.8177 12.5922 10.666 12.7508 10.8352 13.0413C11.0055 13.333 11.5888 14.2862 12.4545 15.0573C13.5675 16.049 14.5043 16.3558 14.796 16.5028C15.0877 16.6487 15.2568 16.6242 15.4272 16.4293C15.5975 16.2357 16.1552 15.58 16.3488 15.2883C16.5425 14.9967 16.7373 15.0457 17.0045 15.1425C17.2717 15.2393 18.7032 15.944 18.9937 16.0898C19.2853 16.2357 19.479 16.308 19.5513 16.4293C19.6237 16.5495 19.6237 17.1328 19.381 17.813Z"
+                    fill="black"
+                  />
+                </svg>
+                <span>Whatsapp</span>
+              </a>
+              <a
+                href="https://t.me"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="social-icon"
+                  aria-hidden="true"
+                >
+                  <g clip-path="url(#clip0_1_55)">
+                    <path
+                      d="M26.6261 3.59164C26.3343 3.60453 26.0496 3.68539 25.7929 3.78851C25.5386 3.89047 24.0773 4.5139 21.9187 5.43734C19.7601 6.36078 16.9546 7.56195 14.1726 8.75375C8.60971 11.1373 3.14292 13.4823 3.14292 13.4823L3.18276 13.467C3.18276 13.467 2.85229 13.5772 2.51831 13.8104C2.35073 13.9264 2.17143 14.0776 2.02378 14.2967C1.87612 14.5159 1.76831 14.8264 1.80932 15.1557C1.95229 16.31 3.14878 16.6381 3.14878 16.6381L3.15346 16.6405L8.49487 18.4686C8.63081 18.9233 10.1144 23.8756 10.4414 24.9244C10.6218 25.5045 10.7906 25.8385 10.9664 26.067C11.0542 26.1807 11.1468 26.2698 11.2488 26.3342C11.2898 26.36 11.332 26.3787 11.3742 26.3963C11.3753 26.3963 11.3753 26.3963 11.3765 26.3963C11.3812 26.3987 11.3871 26.3987 11.3917 26.401L11.3777 26.3975C11.3871 26.401 11.3976 26.408 11.407 26.4116C11.4257 26.4186 11.4374 26.4174 11.4621 26.4233C12.0738 26.6366 12.58 26.2405 12.58 26.2405L12.6011 26.2241L15.8824 23.1807L21.2074 27.3326L21.2742 27.3631C22.2058 27.7768 23.0496 27.5459 23.516 27.1662C23.9824 26.7866 24.1664 26.2967 24.1664 26.2967L24.1863 26.2451L28.0992 5.85101C28.1988 5.39515 28.214 5.00023 28.1191 4.64398C28.0242 4.28773 27.7957 3.97836 27.5074 3.80609C27.2191 3.63382 26.9179 3.57875 26.6261 3.59164ZM26.6578 4.81156C26.7761 4.8057 26.864 4.81976 26.8921 4.83617C26.9203 4.85257 26.932 4.85023 26.9589 4.95101C26.9859 5.05179 27 5.26273 26.9273 5.59437L26.9249 5.6014L23.0343 25.8772C23.025 25.8971 22.9441 26.0846 22.7589 26.2358C22.5703 26.3893 22.3605 26.5088 21.8027 26.2756L15.9796 21.7346L15.8156 21.6057L15.8121 21.6092L14.0707 20.3026L23.857 8.7889C24.0105 8.60843 24.0433 8.35531 23.9414 8.14086C23.8394 7.92757 23.6214 7.79398 23.3847 7.79984C23.271 7.80336 23.1609 7.83734 23.0671 7.90062L8.9062 17.3412L3.55659 15.5096C3.55659 15.5096 3.02573 15.2143 2.99995 15.008C2.99878 14.9963 2.99175 15.0069 3.01987 14.9659C3.048 14.9248 3.11714 14.8557 3.20386 14.7948C3.37729 14.6741 3.57651 14.6002 3.57651 14.6002L3.59643 14.5932L3.61636 14.585C3.61636 14.585 9.08315 12.2401 14.646 9.85648C17.4269 8.66468 20.2324 7.46351 22.391 6.54125C24.5484 5.61898 26.107 4.95453 26.2394 4.90179C26.3894 4.84203 26.5394 4.81742 26.6578 4.81156ZM20.1679 11.2756L12.7464 20.0073L12.7429 20.0108C12.7312 20.0248 12.7207 20.0389 12.7101 20.0541C12.6984 20.0705 12.6878 20.0869 12.6773 20.1045C12.6351 20.1748 12.6093 20.2534 12.5988 20.3354C12.5988 20.3366 12.5988 20.3389 12.5988 20.3401L11.632 24.6877C11.6156 24.6409 11.605 24.6233 11.5874 24.5682V24.567C11.2804 23.5803 9.88003 18.9092 9.68667 18.2635L20.1679 11.2756ZM13.5843 21.4381L14.9179 22.4389L12.9585 24.2553L13.5843 21.4381Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_55">
+                      <rect width="30" height="30" fill="black" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <span>Telegram</span>
+              </a>
+            </div>
+          </div>
+          <div class="footer__menu">
+            <div class="footer__menu-left">
+              <a class="footer__menu-link" href="#">Главная</a>
+              <a class="footer__menu-link" href="#">Портфолио</a>
+              <a class="footer__menu-link" href="#">Услуги</a>
+            </div>
+            <div class="footer__menu-right">
+              <a class="footer__menu-link" href="#">Процессы</a>
+              <a class="footer__menu-link" href="#">О компании</a>
+              <a class="footer__menu-link" href="#">Контакты</a>
+            </div>
+          </div>
+          <a class="footer-arrow" href="#"
+            ><img src="/images/icons/footer-arrow.svg" alt=""
+          /></a>
+        </div>
+        <div class="footer__line"></div>
+        <div class="footer__copyright">
+          <p>© Devcloud Solutions, Inc. 2021. We love our users!</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
